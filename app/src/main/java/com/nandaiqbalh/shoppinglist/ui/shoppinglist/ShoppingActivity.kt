@@ -7,7 +7,7 @@ import com.nandaiqbalh.shoppinglist.R
 import com.nandaiqbalh.shoppinglist.data.db.ShoppingDatabase
 import com.nandaiqbalh.shoppinglist.data.repositories.ShoppingRepository
 
-class ShoopingActivity : AppCompatActivity() {
+class ShoppingActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_shopping)
